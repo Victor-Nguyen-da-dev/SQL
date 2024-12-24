@@ -44,3 +44,27 @@ INNER JOIN average_salary ON average_salary.skill_id = in_demand_skills.skill_id
 ORDER BY
     skill_counts DESC,
     avg_salary DESC
+
+
+-- Alternative Shortened version 
+
+SELECT
+    skills,
+    COUNT(sd.skill_id) AS skill_counts,
+    ROUND(AVG(salary_year_avg), 2) AS avg_salary
+FROM
+    skills_dim AS sd
+INNER JOIN skills_job_dim AS sjd ON sjd.skill_id = sd.skill_id
+INNER JOIN job_postings_fact AS jpf ON sjd.job_id = jpf.job_id
+WHERE
+    job_title_short = 'Data Analyst'
+    AND salary_year_avg IS NOT NULL
+    AND job_work_from_home = TRUE
+GROUP BY
+    skills
+HAVING
+    COUNT(sd.skill_id) > 10
+ORDER BY
+    skill_counts DESC,
+    avg_salary DESC
+LIMIT 25
