@@ -10,7 +10,7 @@ FROM
 WHERE
     job_title_short = 'Data Analyst'
     AND salary_year_avg IS NOT NULL
-    AND job_location = 'Anywhere'
+    AND job_work_from_home = TRUE
 ORDER BY
     salary_year_avg DESC
 LIMIT 10
