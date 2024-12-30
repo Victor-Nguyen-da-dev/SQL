@@ -49,6 +49,7 @@ ORDER BY
 -- Alternative Shortened version 
 
 SELECT
+    sd.skill_id,
     skills,
     COUNT(sd.skill_id) AS skill_counts,
     ROUND(AVG(salary_year_avg), 2) AS avg_salary
@@ -61,7 +62,7 @@ WHERE
     AND salary_year_avg IS NOT NULL
     AND job_work_from_home = TRUE
 GROUP BY
-    skills
+    sd.skill_id
 HAVING
     COUNT(sd.skill_id) > 10
 ORDER BY
