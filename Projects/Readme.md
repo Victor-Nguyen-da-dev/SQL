@@ -40,6 +40,19 @@ To understand what skills are required for the top-paying jobs, I joined the job
 
 This query helped identify the skills most frequently requested in job postings, directing focus to areas with high demand.
 
+| skills | skill_counts |
+| ------ | -------------|
+| sql |	92628 |
+| excel | 67031 |
+| python | 57326 |
+| tableau|	46554|
+|power bi|	39468|
+|r	|30075|
+|sas|	28068|
+|powerpoint	|13848|
+|word	|13591|
+|sap	|11297|
+
 ### 4. Skills Based on Salary
 
 Exploring the average salaries associated with different skills revealed which skills are the highest paying.
