@@ -40,23 +40,54 @@ To understand what skills are required for the top-paying jobs, I joined the job
 
 This query helped identify the skills most frequently requested in job postings, directing focus to areas with high demand.
 
-| skills | skill_counts |
-| ------ | -------------|
-| sql |	92628 |
-| excel | 67031 |
-| python | 57326 |
-| tableau|	46554|
-|power bi|	39468|
-|r	|30075|
-|sas|	28068|
-|powerpoint	|13848|
-|word	|13591|
-|sap	|11297|
+| skills   | skill_counts |
+|----------|--------------|
+| sql      | 92628        |
+| excel    | 67031        |
+| python   | 57326        |
+| tableau  | 46554        |
+| power bi | 39468        |
 
 ### 4. Skills Based on Salary
 
 Exploring the average salaries associated with different skills revealed which skills are the highest paying.
 
+| skills    | avg_salary_skill |
+|-----------|------------------|
+| svn       | 400000           |
+| solidity  | 179000           |
+| couchbase | 160515           |
+| datarobot | 155486           |
+| golang    | 155000           |
+| mxnet     | 149000           |
+| dplyr     | 147633           |
+| vmware    | 147500           |
+| terraform | 146734           |
+| twilio    | 138500           |
+| gitlab    | 134126           |
+| kafka     | 129999           |
+| puppet    | 129820           |
+| keras     | 127013           |
+| pytorch   | 125226           |
+
 ### 5. Most Optimal Skills to Learn
 
 Combining insights from demand and salary data, this query aimed to pinpoint skills that are both in high demand and have high salaries, offering a strategic focus for skill development.
+
+| skill_id | skills     | skill_counts | avg_salary |
+| :------- | :--------- | :----------- | :--------- |
+| 8        | go         | 27           | 115320     |
+| 234      | confluence | 11           | 114210     |
+| 97       | hadoop     | 22           | 113193     |
+| 80       | snowflake  | 37           | 112948     |
+| 74       | azure      | 34           | 111225     |
+| 77       | bigquery   | 13           | 109654     |
+| 76       | aws        | 32           | 108317     |
+| 4        | java       | 17           | 106906     |
+| 194      | ssis       | 12           | 106683     |
+| 233      | jira       | 20           | 104918     |
+| 79       | oracle     | 37           | 104534     |
+| 185      | looker     | 49           | 103795     |
+| 2        | nosql      | 13           | 101414     |
+| 1        | python     | 236          | 101397     |
+| 5        | r          | 148          | 100499     |

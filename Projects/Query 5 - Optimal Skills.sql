@@ -52,7 +52,7 @@ SELECT
     sd.skill_id,
     skills,
     COUNT(sd.skill_id) AS skill_counts,
-    ROUND(AVG(salary_year_avg), 2) AS avg_salary
+    ROUND(AVG(salary_year_avg), 0) AS avg_salary
 FROM
     skills_dim AS sd
 INNER JOIN skills_job_dim AS sjd ON sjd.skill_id = sd.skill_id
@@ -66,6 +66,5 @@ GROUP BY
 HAVING
     COUNT(sd.skill_id) > 10
 ORDER BY
-    skill_counts DESC,
     avg_salary DESC
-LIMIT 25
+LIMIT 15
