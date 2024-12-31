@@ -46,43 +46,43 @@ This is a collection of queries results from my main projects as well as the vis
 
 - [Query Results](<Query 4.csv>)
 
-| "skills"    | "avg_salary_skill" |
+| skills    | avg_salary_skill |
 | :---------- | :----------------- |
-| "svn"       | "400000"           |
-| "solidity"  | "179000"           |
-| "couchbase" | "160515"           |
-| "datarobot" | "155486"           |
-| "golang"    | "155000"           |
-| "mxnet"     | "149000"           |
-| "dplyr"     | "147633"           |
-| "vmware"    | "147500"           |
-| "terraform" | "146734"           |
-| "twilio"    | "138500"           |
-| "gitlab"    | "134126"           |
-| "kafka"     | "129999"           |
-| "puppet"    | "129820"           |
-| "keras"     | "127013"           |
-| "pytorch"   | "125226"           |
+| svn       | 400000           |
+| solidity  | 179000           |
+| couchbase | 160515           |
+| datarobot | 155486           |
+| golang    | 155000           |
+| mxnet     | 149000           |
+| dplyr     | 147633           |
+| vmware    | 147500           |
+| terraform | 146734           |
+| twilio    | 138500           |
+| gitlab    | 134126           |
+| kafka     | 129999           |
+| puppet    | 129820           |
+| keras     | 127013           |
+| pytorch   | 125226           |
 |             |                    |
 
 ### Query 5
 
 - [Query Results](<Query 5.csv>)
 
-| "skill_id" | "skills"     | "skill_counts" | "avg_salary" |
+| skill_id | skills     | skill_counts | avg_salary |
 | :--------- | :----------- | :------------- | :----------- |
-| 8          | "go"         | "27"           | "115320"     |
-| 234        | "confluence" | "11"           | "114210"     |
-| 97         | "hadoop"     | "22"           | "113193"     |
-| 80         | "snowflake"  | "37"           | "112948"     |
-| 74         | "azure"      | "34"           | "111225"     |
-| 77         | "bigquery"   | "13"           | "109654"     |
-| 76         | "aws"        | "32"           | "108317"     |
-| 4          | "java"       | "17"           | "106906"     |
-| 194        | "ssis"       | "12"           | "106683"     |
-| 233        | "jira"       | "20"           | "104918"     |
-| 79         | "oracle"     | "37"           | "104534"     |
-| 185        | "looker"     | "49"           | "103795"     |
-| 2          | "nosql"      | "13"           | "101414"     |
-| 1          | "python"     | "236"          | "101397"     |
-| 5          | "r"          | "148"          | "100499"     |
+| 8          | go         | 27           | 115320     |
+| 234        | confluence | 11           | 114210     |
+| 97         | hadoop     | 22           | 113193     |
+| 80         | snowflake  | 37           | 112948     |
+| 74         | azure      | 34           | 111225     |
+| 77         | bigquery   | 13           | 109654     |
+| 76         | aws        | 32           | 108317     |
+| 4          | java       | 17           | 106906     |
+| 194        | ssis       | 12           | 106683     |
+| 233        | jira       | 20           | 104918     |
+| 79         | oracle     | 37           | 104534     |
+| 185        | looker     | 49           | 103795     |
+| 2          | nosql      | 13           | 101414     |
+| 1          | python     | 236          | 101397     |
+| 5          | r          | 148          | 100499     |
