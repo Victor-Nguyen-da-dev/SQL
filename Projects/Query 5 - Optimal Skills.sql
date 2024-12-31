@@ -68,3 +68,26 @@ HAVING
 ORDER BY
     avg_salary DESC
 LIMIT 15
+
+
+-- Alternative in order of skill_counts
+SELECT
+    sd.skill_id,
+    skills,
+    COUNT(sd.skill_id) AS skill_counts,
+    ROUND(AVG(salary_year_avg), 0) AS avg_salary
+FROM
+    skills_dim AS sd
+INNER JOIN skills_job_dim AS sjd ON sjd.skill_id = sd.skill_id
+INNER JOIN job_postings_fact AS jpf ON sjd.job_id = jpf.job_id
+WHERE
+    job_title_short = 'Data Analyst'
+    AND salary_year_avg IS NOT NULL
+    AND job_work_from_home = TRUE
+GROUP BY
+    sd.skill_id
+HAVING
+    COUNT(sd.skill_id) > 10
+ORDER BY
+    skill_counts DESC
+LIMIT 15

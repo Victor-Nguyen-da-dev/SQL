@@ -86,3 +86,23 @@ This is a collection of queries results from my main projects as well as the vis
 | 2          | nosql      | 13           | 101414     |
 | 1          | python     | 236          | 101397     |
 | 5          | r          | 148          | 100499     |
+
+- [Alternative Query Results - Sort by skill_counts](<Query 5 - Skills Counts.csv>)
+
+| skill_id | skills     | skill_counts | avg_salary |
+| :------- | :--------- | :----------- | :--------- |
+| 0        | sql        | 398          | 97237      |
+| 181      | excel      | 256          | 87288      |
+| 1        | python     | 236          | 101397     |
+| 182      | tableau    | 230          | 99288      |
+| 5        | r          | 148          | 100499     |
+| 183      | power bi   | 110          | 97431      |
+| 186      | sas        | 63           | 98902      |
+| 7        | sas        | 63           | 98902      |
+| 196      | powerpoint | 58           | 88701      |
+| 185      | looker     | 49           | 103795     |
+| 188      | word       | 48           | 82576      |
+| 80       | snowflake  | 37           | 112948     |
+| 79       | oracle     | 37           | 104534     |
+| 61       | sql server | 35           | 97786      |
+| 74       | azure      | 34           | 111225     |
